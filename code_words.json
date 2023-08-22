@@ -1,0 +1,46 @@
+{
+    "JavaScript": ["var", "function", "const", "let", "if", "else", "for", "while", "switch", "case", "try", "catch", "window", "document", "console", "alert", "prompt", "confirm", "Promise", "async", "await", "class", "super", "extends", "export", "import", "undefined", "NaN", "debugger", "typeof", "instanceof", "throw", "delete", "void", "constructor"],
+    
+    "Python": ["def", "class", "for", "if", "else","elif", "import", "from", "lambda", "return", "None", "True", "False", "and", "or", "not", "in", "is", "pass", "break", "continue", "global", "nonlocal", "assert", "raise", "except", "finally", "try", "with", "yield", "del", "print", "len", "list", "dict", "set", "tuple", "range", "map", "filter", "reduce", "docstring"],
+    
+    "Java": ["class","public","static","void","int","boolean","double","for","while","if","else","try","catch", "throw", "throws", "final", "finally", "extends", "implements", "instanceof", "interface", "import", "package", "switch", "case", "default", "break", "continue", "return", "new", "this", "super", "enum", "assert", "abstract", "transient", "volatile", "synchronized"],
+    
+    "C#": ["using", "class", "void", "int", "double", "bool", "string", "for", "foreach", "if", "else", "try", "catch", "finally", "throw", "break", "continue", "return", "const", "readonly", "unsafe", "lock", "yield", "async", "await", "stackalloc", "nameof", "as", "is", "ref", "out", "in", "params", "decimal", "var", "dynamic", "object"],
+    
+    "PHP": ["echo", "if", "elseif", "foreach", "while", "function", "class", "include", "require", "return", "try", "catch", "throw", "clone", "namespace", "use", "global", "static", "final", "public", "private", "protected", "abstract", "interface", "implements", "instanceof", "insteadof", "and", "or", "xor", "array", "list", "echo", "unset", "isset", "empty"],
+    
+    "C++": ["#include", "using", "cout", "class", "public", "void", "int", "double", "for", "while", "if", "else", "try", "catch", "throw", "namespace", "std", "auto", "const", "mutable", "virtual", "explicit", "friend", "inline", "operator", "template", "typename", "typeid", "sizeof", "decltype", "noexcept", "nullptr", "static_cast", "const_cast", "reinterpret_cast"],
+    
+    "C": ["#include", "void", "int", "float", "double", "if", "else", "for", "while", "printf", "struct", "typedef", "static", "enum", "union", "const", "volatile", "register", "continue", "break", "return", "sizeof", "switch", "case", "default", "goto", "extern", "inline", "restrict", "malloc", "free", "calloc", "realloc", "printf", "sprintf", "sscanf"],
+   
+    "R": ["library","setwd","data","df","c","mean","sum","print","plot","geom","ggplot","dplyr","install.packages","read","write","summary","seq","colnames","rownames","length","nrow","ncol","str","as","factor","matrix","array","apply","tapply","sapply","lapply","grep","substr","gsub","ifelse","merge","transform","which","unique"],
+    
+    "Objective-C": ["#import", "NSObject", "self", "super", "BOOL", "id", "@interface", "@implementation", "@property", "@synthesize", "alloc", "init", "copy", "strong", "weak", "retain", "release", "atomic", "nonatomic", "readonly", "readwrite", "assign", "nil", "IBOutlet", "IBAction", "MKAnnotation", "NSCoding", "NSCopying", "NSMutableCopying", "NSError"],
+    
+    "Swift": ["import", "var", "func", "class", "let", "if", "guard", "for", "switch", "case", "struct", "enum", "protocol", "extension", "init", "deinit", "override", "fileprivate", "open", "dynamic", "lazy", "throws", "rethrows", "indirect", "associatedtype", "typealias", "nil", "_,", "!"], 
+    
+    "TypeScript": ["let", "const", "function","class","constructor","public","private","import","export","interface","implements","extends","super", "readonly", "get", "set", "abstract", "async", "await", "yield", "typeof", "keyof", "infer", "in", "instanceof", "is", "module", "declare", "namespace", "generic", "Parameters", "Partial", "Required", "Readonly", "Pick"],
+    
+    "Ruby": ["require", "class", "def", "puts", "gets", "module", "include", "extend", "if", "elsif", "unless", "for", "begin", "rescue", "raise", "retry", "ensure", "else", "super", "self", "end", "redo", "next", "then", "yield", "until", "case", "when", "break", "redo", "retry", "alias", "__method__", "__dir__", "__callee__"],
+    
+    "Go": ["package","import","func","var","const","if","else","for","range","switch","case","select","struct","interface","map","chan","goto","defer","fallthrough","go","range","make","len","cap","new","copy","append","panic","recover","Println","printf","Sprintf","error","Fprintf","continue"],
+    
+    "Assembly": ["section","global","extern","dd","dq","resb","resw","incbin","db","dw","PROC","ENDP","mov","add","sub","cmp","je","jne","ret","jmp","call","push","pop","xor","test","shl","shr","lea","nop","hlt","int","rep","stosb","lodsb","movsb","xchg","mul","imul","idiv","rdtsc","rdtscp","lfence","mfence","pause","vmcall","vmlaunch","vmresume","ud2"],
+    
+    "PowerShell": ["Set-Location", "Import-Module", "function", "Write-Output", "Read-Host", "$variable", "if", "else", "foreach", "try", "catch", "finally", "return", "switch", "break", "continue", "throw", "exit", "trap", "where", "sort", "select", "measure", "get-date", "start-process", "stop-process", "wait-process", "new-object", "set-content", "add-content"],
+    
+    "Haskell": ["import","module","where","data","type","class","instance","let","in","case","of","do","if","then","else","deriving","forall","mfix","proc","lam","rec","until","newtype","undefined","error","liftM","ap",">>=",">>","=<<","==","/=","boolean","maybe","either","order","show","read","replicate"],
+    
+    "Perl": ["use", "require", "print", "my", "our", "@array", "%hash", "if", "else", "elsif", "unless", "for", "while", "sub","package", "bless", "tie", "untie", "given", "when", "default", "map", "grep", "sort", "no", "eq", "ne", "lt", "gt", "le", "ge", "cmp"],
+    
+    "Kotlin": ["import","package","class","val","var","fun","for","if","else","when","try","catch","as","is","in","object","interface","null","companion","const","operator","set","get","constructor","init","this","super","return","throw","break","continue"],
+    
+    "Scala": ["import", "object", "class", "trait", "case class","extends", "with", "for", "match", "try", "catch", "finally", "if", "else", "throw", "match", "case", "sealed", "abstract", "override", "implicit", "lazy", "yield", "protected", "private", "def","val", "var", "new", "this", "super", "type"],
+    
+    "Shell": ["echo", "cd", "ls", "mkdir", "rm", "cat", "sed", "grep", "awk", "chmod", "chown", "df", "du", "env", "export", "unset", "alias", "let", "read", "set", "shift", "source", "select", "exec", "trap", "kill", "sleep", "wait", "test", "[[", "]]", "$", "((", "}}", ";&", "|", ">", ">>", "<", "2>", "2>>"],
+    
+    "Rust": ["use","fn","struct","impl","pub","mod","let","match","if","else","for","loop","while","return","enum","trait","ref","self","bool","str","String","vec","Option","Result","Box","Rc","Arc","Mutex","Cell","move","copy","clone","Debug","Display","Error","macro_rules","macro","eprintln","writeln","assert_eq"],
+    
+    "Lua": ["require","local","function","end","if","then","elseif","else","for","in","pairs","ipairs","while","repeat","until","return","break","not","or","and","nil","false","true","do","goto","continue"]
+  }
+  
