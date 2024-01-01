@@ -1,4 +1,4 @@
-NOTION_TOKEN = "secret_6pU74QOScoU19FE1KqFptMgD4mtATfiYzmH1ZAGnMpS"
+NOTION_TOKEN = "Please Enter you Notion Key"
 DATABASE_ID = "8d299b4304d74afcba41356e0bc6502a"
 import requests
 import datetime
