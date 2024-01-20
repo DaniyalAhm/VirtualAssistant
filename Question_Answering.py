@@ -7,7 +7,8 @@ import json
 model_checkpoint = "huggingface-course/bert-finetuned-squad"
 question_answerer = pipeline("question-answering", model=model_checkpoint)
 
-directories = ["/home/daniyal-ahmed/Documents/Work2","/home/daniyal-ahmed/Documents/TestforVA"]
+#Enter your notes directory Here
+directories = [""]
 
 
 def load_in_data(directory):
