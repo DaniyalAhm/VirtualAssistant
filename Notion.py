@@ -1,5 +1,5 @@
-NOTION_TOKEN = "Please Enter you Notion Key"
-DATABASE_ID = "8d299b4304d74afcba41356e0bc6502a"
+NOTION_TOKEN = "Please Enter your Notion Key"
+DATABASE_ID = "Please Enter your DataBase ID"
 import requests
 import datetime
 headers = {
