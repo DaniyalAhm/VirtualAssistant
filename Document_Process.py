@@ -5,7 +5,7 @@ import pdfplumber
 import json
 import sys
 
-sys.path.append("/home/daniyal-ahmed/Documents/VirtualAssistant/A.I learning V.58/Darwin")
+#sys.path.append("/home/daniyal-ahmed/Documents/VirtualAssistant/A.I learning V.58/Darwin")
 from Basic_nlp_functions import generate_title
 from ConversationDataStruct import *
 
