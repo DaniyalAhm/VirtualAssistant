@@ -3,12 +3,12 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 import sys
-
+'''
 sys.path.append("C:\\Users\\eggsc\\Documents\\A.I learning\\U.i\\Ui v.1.py")
 sys.path.append("C:\\Users\\eggsc\\Documents\\A.I learning\\Alan")
 sys.path.append("C:\\Users\\eggsc\\Documents\\A.I learning\\Darwin\\Basic_nlp_functions.py")
 sys.path.append("C:\\Users\\eggsc\\Documents\\A.I learning\\U.i")
-
+'''
 
 
 from Basic_nlp_functions import *
