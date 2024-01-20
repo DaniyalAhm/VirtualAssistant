@@ -13,6 +13,7 @@ import queue
 
 #!Importing all files manually because of the way the program is structured
 import sys
+'''
 sys.path.append("C:\\Users\\eggsc\\Documents\\A.I learning\\U.i\\Ui V.2.py")
 sys.path.append("C:\\Users\\eggsc\\Documents\\A.I learning\\Darwin\\Functionalities\\Document_Process.py")
 sys.path.append("C:/Users/eggsc/Documents/A.I learning/Darwin/")
@@ -20,11 +21,12 @@ sys.path.append("C:/Users/eggsc/Documents/A.I learning/Alan/")
 sys.path.append("C:/Users/eggsc/Documents/A.I learning/")
 sys.path.append("C:\\Users\\eggsc\\Documents\\A.I learning\\Darwin\\Basic_nlp_functions.py")
 sys.path.append("C:\\Users\eggsc\\Documents\\A.I learning\\Darwin\\Functionalities\\Gmail.py")
+'''
 #!Importing necessary files
 from Intent_recog import *
-from Alan.Alan_main import *
+from Alan_main import *
 from Basic_nlp_functions import *
-from Functionalities.Gmail import *
+from Gmail import *
 
 #!Global Variables
 global Ignore_DarwinMain
