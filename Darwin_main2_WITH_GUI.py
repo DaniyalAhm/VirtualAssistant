@@ -11,8 +11,9 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
 
-#!Importing all files manually because of the way the program is structured
+#!Importing all files manually because of the way the program is structured EDIT had to revise the way the program was structured because of git difficulties
 import sys
+'''
 sys.path.append("D:\\Daniyals Stuffs\\A.I learning\Darwin\\Functionalities\\Document_Process.py")
 sys.path.append("D:\\Daniyals Stuffs\\A.I learning\\Darwin")
 
@@ -20,18 +21,18 @@ sys.path.append("D:\\Daniyals Stuffs\\A.I learning\\Darwin")
 sys.path.append("D:\\Daniyals Stuffs\\A.I learning\\Darwin\\Basic_nlp_functions.py")
 sys.path.append("D:\\Daniyals Stuffs\\A.I learning\\Darwin\\Functionalities\\Gmail.py")
 sys.path.append("D:\\Daniyals Stuffs\\A.I learning\\Alan\\Alan_main.py")
-
+'''
 
 
 #!Importing necessary files
 from Intent_recog import *
-from Alan_.Alan_main import *
+from Alan_main import *
 from Basic_nlp_functions import *
-from Functionalities.Gmail import *
-from Functionalities.Notion import *
+from Gmail import *
+from Notion import *
 from ConversationDataStruct import *
-from Functionalities.Question_Answering import *
-from Functionalities.Document_Process import *
+from Question_Answering import *
+from Document_Process import *
 
 
 
