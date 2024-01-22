@@ -64,6 +64,7 @@ model = AutoModelForSequenceClassification.from_pretrained(
 
 
 training_args = TrainingArguments(
+    #Replace with your own Output Directory
     output_dir = "/home/daniyal-ahmed/Documents/VirtualAssistant/A.I learning V.58/Fine_Tuned_BERT18",
     evaluation_strategy="epoch",
     save_strategy="epoch",
