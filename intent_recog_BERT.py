@@ -29,7 +29,7 @@ def compute_metrics(eval_pred):
 
 
 # Load the dataset
-dataset = createDataset("/home/daniyal-ahmed/Documents/VirtualAssistant/A.I learning V.58/Datasets/Geared_Responsed_no_identity copy.json")
+dataset = createDataset("/Geared_Responsed_no_identity copy.json")
 
 
 
